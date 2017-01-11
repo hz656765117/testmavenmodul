@@ -1,7 +1,14 @@
 package com.hz.business.base.pojo;
 
-public class Group {
-    private Integer id;
+import java.io.Serializable;
+
+public class Group implements Serializable{
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	private Integer id;
 
     private String name;
 
